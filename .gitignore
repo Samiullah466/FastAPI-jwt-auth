@@ -22,3 +22,7 @@ __pycache__/
 # OS / System files
 .DS_Store
 Thumbs.db
+
+*.xlsx
+~$*
+

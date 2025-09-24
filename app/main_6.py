@@ -7,7 +7,9 @@ app = FastAPI()
 # Register all routes from routes_5.py
 app.include_router(routes_5.router)
 
-# ----------------- MIDDLEWARE -----------------
+# ------------------------------------------------------------------------------
+# MIDDLEWARE
+# ------------------------------------------------------------------------------
 @app.middleware("http")
 async def jwt_middleware(request: Request, call_next):
     # Skip JWT validation for public routes
