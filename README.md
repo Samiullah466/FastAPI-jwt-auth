@@ -30,8 +30,8 @@ It supports **signup, login, JWT authentication, middleware-based request valida
 
 ### Clone Repository
 ```bash
-git clone https://github.com/your-username/fastapi-auth-system.git
-cd fastapi-auth-system
+git clone https://github.com/Samiullah466/FastAPI-jwt-auth.git
+cd FastAPI-jwt-auth
 =======
 # FastAPI-jwt-auth
 <br>
