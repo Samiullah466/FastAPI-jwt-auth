@@ -6,7 +6,7 @@ from pydantic import BaseModel
 class UserSignup(BaseModel):
     username: str   # Username for the new user
     password: str   # Plain text password (will be hashed before saving)
-    role: str       # Role of the user (e.g., Teacher, Student)
+    role: str       # Role of the user (, Teacher, Student)
 
 
 # ============================

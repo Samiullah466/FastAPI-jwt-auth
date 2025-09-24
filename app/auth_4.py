@@ -53,7 +53,7 @@ def create_jwt(username: str, role: str) -> str:
 
     Args:
         username (str): User's unique username.
-        role (str): User's role (e.g., Teacher, Student).
+        role (str): User's role ( Teacher, Student).
 
     Returns:
         str: Encoded JWT token (valid for 1 hour).

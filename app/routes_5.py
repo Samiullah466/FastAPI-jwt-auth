@@ -11,7 +11,7 @@ router = APIRouter()
 @router.get("/")
 def home():
     # Root endpoint - just a welcome message
-    return {"msg": "Welcome to FastAPI JWT Demo"}
+    return {"msg": "Welcome to FastAPI JWT Application"}
 
 
 # ============================
@@ -83,7 +83,7 @@ def student(request: Request):
     if user["role"] != "Student":
         raise HTTPException(status_code=403, detail="Students only")
     
-    return {"msg":f"Welcom Student {user['sub']}"}
+    return {"msg":f"Welcome Student {user['sub']}"}
 
 
 # ============================
@@ -195,5 +195,5 @@ def download_excel(request: Request, db: Session = Depends(database_1.get_db)):
     return FileResponse(
         filepath,
         filename="users.xlsx",
-        media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        media_type="application/vnd.openxmlformats-officedocument.spreadsheet.sheet",
     )
