@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FastAPI + PostgreSQL + Alembic + JWT Authentication
 
 This project is a **FastAPI-based authentication and authorization system** with role-based access control.  
@@ -31,3 +32,8 @@ It supports **signup, login, JWT authentication, middleware-based request valida
 ```bash
 git clone https://github.com/your-username/fastapi-auth-system.git
 cd fastapi-auth-system
+=======
+# FastAPI-jwt-auth
+<br>
+A FastAPI authentication system with JWT, bcrypt password hashing, PostgreSQL, Alembic migrations, and role-based access control (Teacher &amp; Student).
+>>>>>>> 5f8dda142e201d3d686a7a0206c3789911b50a8a
